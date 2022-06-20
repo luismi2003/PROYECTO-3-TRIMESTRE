@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test [  
+    <!ELEMENT test (question+)>
+    <!ELEMENT question (wording,choices)>
+    <!ELEMENT wording (#PCDATA)>
+    <!ELEMENT choices (choice+)>
+    <!ELEMENT choice (#PCDATA)>
+    
+    <!ATTLIST question id CDATA #REQUIRED>
+    <!ATTLIST choice correct (yes|no) "no">
+]>
+
+<test>
+
+    <question id="question_1">
+
+            <wording>En un accidente con heridos graves en el que esté implicado debe...</wording>
+
+        <choices>
+
+            <choice correct="no">marcharse después de avisar y facilitar sus datos.</choice>
+            <choice correct="no">esperar a que los heridos se recuperen.</choice>
+            <choice correct="yes">permanecer en el lugar del accidente hasta que lleguen los agentes de tráfico.</choice>
+            <choice correct="no">parar todo el tráfico.</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_2">
+
+      <wording>¿Cuál de éstos tipos de baliza no existe?</wording>
+
+        <choices>
+
+            <choice correct="yes">Balizas circulares</choice>
+            <choice correct="no">Balizas planas</choice>
+            <choice correct="no">Balizas cilíndricas</choice>
+            <choice correct="no">Balizas triangulares</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_3">
+
+        <wording>El agente, con toques de silbato cortos y frecuentes, ordena...</wording>
+
+        <choices>
+
+            <choice correct="no">reanudar la marcha</choice>
+            <choice correct="no">encender el intermitente</choice>
+            <choice correct="no">acelerar para evitar los atascos</choice>
+            <choice correct="yes">detenerse</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_4">
+
+        <wording>Un dispositivo de retención infantil, ¿cómo se debe elegir?</wording>
+
+        <choices>
+
+            <choice correct="yes">Según el peso del niño.</choice>
+            <choice correct="no">Según la edad.</choice>
+            <choice correct="no">El de medida más grande, para que se pueda usar más tiempo.</choice>
+            <choice correct="no">El que ocupe menos espacio.</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_5">
+
+      <wording>En esta situación, ¿Qué debe hacer si va a girar a la izquierda?</wording>
+
+        <choices>
+
+            <choice correct="no">Continuar, obedeciendo al semáforo de la derecha.</choice>
+            <choice correct="no">Únicamente detenerse si hay peatones cruzando.</choice>
+            <choice correct="yes">Detenerse, obedeciendo al semáforo situado a la izquierda.</choice>
+            <choice correct="no">Continuar, sin obedecer ninguno de los semáforos</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_6">
+
+      <wording>Una de las causas principales de los accidentes de las personas mayores es…</wording>
+
+        <choices>
+
+            <choice correct="no">La menor percepción del riesgo.</choice>
+            <choice correct="yes">El deterioro de las capacidades psicomotrices.</choice>
+            <choice correct="no">La falta de paciencia.</choice>
+            <choice correct="no">No respetar las señales.</choice>
+
+        </choices>
+
+    </question>
+
+
+    <question id="question_7">
+
+      <wording>En esta vía, ¿por dónde debe circular un ciclomotor?</wording>
+
+        <choices>
+
+            <choice correct="no">Por la calzada, lo más cerca posible del borde derecho.</choice>
+            <choice correct="no">Por la calzada o el arcén.</choice>
+            <choice correct="no">Por la mitad de la calzada.</choice>
+            <choice correct="yes">Por el arcén de la derecha.</choice>
+
+        </choices>
+
+    </question>
+
+
+    <question id="question_8">
+
+      <wording>Un remolque está considerado como un vehículo…</wording>
+
+        <choices>
+
+            <choice correct="no">De transporte</choice>
+            <choice correct="yes">Sin motor</choice>
+            <choice correct="no">De motor</choice>
+            <choice correct="no">Automático</choice>
+
+        </choices>
+
+    </question>
+
+
+    <question id="question_9">
+
+      <wording>Muchos atropellos a peatones pasan…</wording>
+
+        <choices>
+
+            <choice correct="yes">Cuando los vehículos circulan marcha atrás.</choice>
+            <choice correct="no">De noche.</choice>
+            <choice correct="no">En las autopistas.</choice>
+            <choice correct="no">En las autovías.</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_10">
+
+      <wording>¿Se debe encender el alumbrado con condiciones meteorológicas que disminuyan la visibilidad?</wording>
+
+        <choices>
+
+            <choice correct="no">No, ya que los dispositivos de alumbrado no podrán realizar su función en éstas condiciones</choice>
+            <choice correct="no">No, nunca</choice>
+            <choice correct="no">No, ya que podrían deslumbrar de día al resto de conductores</choice>
+            <choice correct="yes">Si, siempre</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_11">
+
+      <wording>¿Quién está exento de utilizar el cinturón de seguridad?</wording>
+
+        <choices>
+
+            <choice correct="yes">Los conductores cuando hacen la maniobra de estacionamiento o marcha atrás.</choice>
+            <choice correct="no">Los conductores y los pasajeros de vehículos en servicio de urgencia en vías interurbanas.</choice>
+            <choice correct="no">Los conductores de taxis en vías urbanas o interurbanas.</choice>
+            <choice correct="no">Los vehiculos que circulen a menos de 20 km/h.</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_12">
+
+      <wording>¿Es conveniente circular en paralelo al lado de un vehículo de dos ruedas?</wording>
+
+        <choices>
+
+            <choice correct="no">No, excepto en vías urbanas o con mucho tránsito.</choice>
+            <choice correct="yes">No.</choice>
+            <choice correct="no">Sí.</choice>
+            <choice correct="no"> A veces.</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_13">
+
+      <wording>Esta señalización, le indica la distancia...</wording>
+
+        <choices>
+
+            <choice correct="no">al lugar donde tiene que detenerse en la próxima intersección.</choice>
+            <choice correct="no">al lugar donde tiene que ceder el paso en la próxima intersección.</choice>
+            <choice correct="no">al lugar donde tiene que parar el motor del vehículo</choice>
+            <choice correct="yes">a la que se encuentra la señal de detención obligatoria de la próxima intersección.</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_14">
+
+      <wording>¿Está prohibido el uso de sirenas para los vehículos no prioritarios?</wording>
+
+        <choices>
+
+            <choice correct="yes">Si,siempre</choice>
+            <choice correct="no">No,puede llevarlas instaladas cualquier vehículo y usarlas como un claxon</choice>
+            <choice correct="no">No,se pueden utilizar en caso de emergencia</choice>
+            <choice correct="no">Si,pero las puedo utilizar para llamar la atención a otros vehiculos</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_15">
+
+      <wording>Circulando por una vía urbana, ¿podemos tirar un pañuelo lleno me microbios por la ventanilla?</wording>
+
+        <choices>
+
+            <choice correct="no">Sí, siempre que sea por causa mayor</choice>
+            <choice correct="no">Si</choice>
+            <choice correct="yes">No</choice>
+            <choice correct="no">No, excepto en autovías</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_16">
+
+      <wording>Un conductor tiene una enfermedad crónica. ¿Hay mayor riesgo de accidente?</wording>
+
+        <choices>
+
+            <choice correct="yes">Sí, y deberá consultar a su médico para confirmar si dicha enfermedad puede ser peligrosa para la conducción.</choice>
+            <choice correct="no">Sí, pero solamente si se trata de una enfermedad neurológica</choice>
+            <choice correct="no">Sí, pero únicamente si se trata de una enfermedad del corazón.</choice>
+            <choice correct="no">No tiene importancia la enfermedad</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_17">
+
+      <wording>¿Se pueden utilizar la luz de corto alcance y la antiniebla trasera a la vez?</wording>
+
+        <choices>
+
+            <choice correct="yes">Únicamente los ciclomotores podrán hacerlo</choice>
+            <choice correct="yes">Si</choice>
+            <choice correct="no">No</choice>
+            <choice correct="no">No es recomendable</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_18">
+
+      <wording>¿Qué elemento del vehículo soporta más los baches y desniveles del terreno?</wording>
+
+        <choices>
+
+            <choice correct="no">El chasis</choice>
+            <choice correct="no">Las llantas</choice>
+            <choice correct="no">Los frenos</choice>
+            <choice correct="yes">Los neumáticos</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_19">
+
+      <wording>Cuando llueve, ¿hay que prestar especial atención a alguna zona de la vía en particular?</wording>
+
+        <choices>
+
+            <choice correct="no">No, puesto que circular con lluvia es muy peligroso en todas partes.</choice>
+            <choice correct="yes">Sí, a los badenes y a las zonas en las que se pueden producir charcos.</choice>
+            <choice correct="no">Solamente en la parte central</choice>
+            <choice correct="no">No, únicamente hay que prestar atención cuando hay niños en las proximidades.</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_20">
+
+      <wording>¿Cual es la longitud máxima que debe tener un vehículo para poder llevar luz de estacionamiento?</wording>
+
+        <choices>
+
+            <choice correct="no">4 metros</choice>
+            <choice correct="yes">6 metros</choice>
+            <choice correct="no">10 metros</choice>
+            <choice correct="no">9 metros</choice>
+
+        </choices>
+
+    </question>
+      
+</test>

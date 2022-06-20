@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test [  
+    <!ELEMENT test (question+)>
+    <!ELEMENT question (wording,choices)>
+    <!ELEMENT wording (#PCDATA)>
+    <!ELEMENT choices (choice+)>
+    <!ELEMENT choice (#PCDATA)>
+    
+    <!ATTLIST question id CDATA #REQUIRED>
+    <!ATTLIST choice correct (yes|no) "no">
+]>
+
+<test>
+
+    <question id="question_1">
+
+            <wording>¿En qué capital de provincia está el campo de fútbol de Los Pajaritos?</wording>
+
+        <choices>
+
+            <choice correct="no">Palencia</choice>
+            <choice correct="yes">Soria</choice>
+            <choice correct="no">Guadalajara</choice>
+            <choice correct="no">Zaragoza</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_2">
+
+      <wording>¿Qué provincia española ha tenido más equipos en Primera División?</wording>
+
+        <choices>
+
+            <choice correct="yes">Sevilla</choice>
+            <choice correct="no">Malaga</choice>
+            <choice correct="no">Almería</choice>
+            <choice correct="no">Huelva</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_3">
+
+        <wording>¿A cuántos metros de la portería está el punto de penalti?</wording>
+
+        <choices>
+
+            <choice correct="no">10 metros</choice>
+            <choice correct="no">8 metros</choice>
+            <choice correct="yes">11 metros</choice>
+            <choice correct="no">14 metros</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_4">
+
+        <wording>¿Qué jugador de fútbol ostenta más títulos?</wording>
+
+        <choices>
+
+            <choice correct="no">Lionel Messi</choice>
+            <choice correct="yes">Daniel Alves</choice>
+            <choice correct="no">Andrés Iniesta</choice>
+            <choice correct="no">Sergio Busquets</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_5">
+
+      <wording>¿Con cuántas tarjetas amarillas se expulsa a un futbolista en un partido?</wording>
+
+        <choices>
+
+            <choice correct="no">Una</choice>
+            <choice correct="yes">Dos</choice>
+            <choice correct="no">Tres</choice>
+            <choice correct="no">Cuatro</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_6">
+
+      <wording>¿A qué país pertenece el equipo Besiktas?</wording>
+
+        <choices>
+
+            <choice correct="no">Egipto</choice>
+            <choice correct="yes">Turquía</choice>
+            <choice correct="no">Bulgaria</choice>
+            <choice correct="no">China</choice>
+
+        </choices>
+
+    </question>
+
+
+    <question id="question_7">
+
+      <wording>¿Quién fue el primer futbolista profesional?</wording>
+
+        <choices>
+
+            <choice correct="no">Kevin Poole</choice>
+            <choice correct="no">Peter Shilton</choice>
+            <choice correct="yes">Fergus Suter</choice>
+            <choice correct="no">Maradona</choice>
+
+        </choices>
+
+    </question>
+
+
+    <question id="question_8">
+
+      <wording>¿A quién premia el Balón de oro?</wording>
+
+        <choices>
+
+            <choice correct="no">Al futbolista que ha metido más goles en un año</choice>
+            <choice correct="yes">Designa al mejor futbolista</choice>
+            <choice correct="no">Al futbolista con más títulos</choice>
+            <choice correct="no">Al jugador con menos tarjetas</choice>
+
+        </choices>
+
+    </question>
+
+
+    <question id="question_9">
+
+      <wording>¿A qué selección de fútbol anima La torcida?</wording>
+
+        <choices>
+
+            <choice correct="no">Argentina</choice>
+            <choice correct="no">Perú</choice>
+            <choice correct="no">Colombia</choice>
+            <choice correct="yes">Brasil</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_10">
+
+      <wording>¿Qué equipo de fútbol español tiene más Ligas?</wording>
+
+        <choices>
+
+            <choice correct="yes">Real Madrid</choice>
+            <choice correct="no">Barcelona</choice>
+            <choice correct="no">Valencia</choice>
+            <choice correct="no">Sevilla</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_11">
+
+      <wording>¿De estos equipos, ¿en cuál jugó Maradona?</wording>
+
+        <choices>
+
+            <choice correct="no">Real Madrid</choice>
+            <choice correct="no">Betis</choice>
+            <choice correct="no">Milan</choice>
+            <choice correct="yes">Sevilla</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_12">
+
+      <wording>¿Cuál fue el primer equipo británico en ganar una Copa de Europa de Clubes?</wording>
+
+        <choices>
+
+            <choice correct="no">Arsenal</choice>
+            <choice correct="no">Chelsea</choice>
+            <choice correct="yes">Celtic de Glasgow</choice>
+            <choice correct="no">Liverpool</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_13">
+
+      <wording>¿Qué selección tiene más mundiales?</wording>
+
+        <choices>
+
+            <choice correct="no">Italia</choice>
+            <choice correct="yes">Brasil</choice>
+            <choice correct="no">España</choice>
+            <choice correct="no">Alemania</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_14">
+
+      <wording>¿Quién ha ostentado más tiempo el cargo de presidente del Real Madrid?</wording>
+
+        <choices>
+
+            <choice correct="no">Florentino Perez</choice>
+            <choice correct="no">Ramón Mendoza</choice>
+            <choice correct="yes">Santiago Bernabéu</choice>
+            <choice correct="no">Lorenzo Sanz</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_15">
+
+      <wording>¿Cuál es el campo de fútbol más grande del mundo?</wording>
+
+        <choices>
+
+            <choice correct="yes">Rungrado Primero de Mayo </choice>
+            <choice correct="no">Camp Nou</choice>
+            <choice correct="no">Wanda Metropolitano</choice>
+            <choice correct="no">Maracaná</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_16">
+
+      <wording>¿Contra qué dos selecciones campeonas del mundo jugó España en el Mundial 82?</wording>
+
+        <choices>
+
+            <choice correct="no">Alemania e Italia</choice>
+            <choice correct="yes">Italia e Inglaterra</choice>
+            <choice correct="no">Alemania e Inglaterra</choice>
+            <choice correct="no">Italia y Francia</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_17">
+
+      <wording>¿Cuál es el máximo de puntos que se puede obtener en la Liga española con 20 equipos?</wording>
+
+        <choices>
+
+            <choice correct="yes">100 puntos</choice>
+            <choice correct="no">124 puntos</choice>
+            <choice correct="no">105 puntos</choice>
+            <choice correct="yes">114 puntos</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_18">
+
+      <wording>¿Qué entrenador de fútbol tiene más títulos del mundo?</wording>
+
+        <choices>
+
+            <choice correct="yes">Alex Ferguson</choice>
+            <choice correct="no">Mircea Lucescu</choice>
+            <choice correct="no">Pep Guardiola</choice>
+            <choice correct="no">Carlo Ancelotti</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_19">
+
+      <wording>¿ Quién era el entrenador del Barcelona cuando debutó Jordi Cruyff en el primer equipo?</wording>
+
+        <choices>
+
+            <choice correct="no">Ernesto Valverde</choice>
+            <choice correct="no">Luis Enrique</choice>
+            <choice correct="no">Pep Guardiola</choice>
+            <choice correct="yes">Jordi Cruyff</choice>
+
+        </choices>
+
+    </question>
+
+    <question id="question_20">
+
+      <wording>¿Cuál fue el primer club de fútbol francés en ganar la Copa de Europa?</wording>
+
+        <choices>
+
+            <choice correct="yes">Paris Saint Germain</choice>
+            <choice correct="no">Olympique de Lyon</choice>
+            <choice correct="no">Olympique de Marsella</choice>
+            <choice correct="no">Monaco</choice>
+
+        </choices>
+
+    </question>
+      
+</test>
+
